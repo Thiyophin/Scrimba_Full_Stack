@@ -34,3 +34,40 @@ rightBoard.addEventListener("click", (e) => {
 
   display.textContent = guestScore;
 });
+
+
+function setToInitial() {
+  let message = "";
+
+  if (homeScore > guestScore) {
+    message = "🏆 HOME wins!";
+  } else if (guestScore > homeScore) {
+    message = "🏆 GUEST wins!";
+  } else {
+    message = "🤝 It's a tie!";
+  }
+
+  showWinnerDialog(message);
+
+  // Reset after animation finishes
+  setTimeout(() => {
+    document.getElementById("display-1").textContent = 0;
+    document.getElementById("display-2").textContent = 0;
+    homeScore = 0;
+    guestScore = 0;
+  }, 2000);
+}
+
+
+function showWinnerDialog(text) {
+  const dialog = document.getElementById("winner-dialog");
+  const winnerText = document.getElementById("winner-text");
+
+  winnerText.textContent = text;
+  dialog.classList.remove("hidden");
+
+  // Hide after 2 seconds
+  setTimeout(() => {
+    dialog.classList.add("hidden");
+  }, 1800);
+}

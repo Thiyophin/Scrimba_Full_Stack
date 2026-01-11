@@ -2,5 +2,4 @@
 
 ## 01 - Score Board
 
-![Score Board Preview](./ReadMe_Images/01_score_board.png)
-
+![Score Board Preview](./ReadMe_Assets/01_game-board.gif)

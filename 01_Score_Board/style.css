@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-family: "Segoe UI", Tahoma, sans-serif;
 }
 
 body {
@@ -92,4 +92,67 @@ body {
 
 .add-score-btns div:active {
   transform: scale(0.95);
+}
+.scoreboard-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.new-game-btn {
+  padding: 12px 32px;
+  background: #22c55e;
+  color: #020617;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(34, 197, 94, 0.4);
+  transition: all 0.15s ease;
+}
+
+.new-game-btn:hover {
+  background: #16a34a;
+}
+
+.new-game-btn:active {
+  transform: scale(0.95);
+}
+
+.winner-dialog {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.winner-box {
+  background: #020617;
+  padding: 40px 60px;
+  border-radius: 16px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #22c55e;
+  transform: scale(0);
+  animation: popIn 0.4s ease forwards;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

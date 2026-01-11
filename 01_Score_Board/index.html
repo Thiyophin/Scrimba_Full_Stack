@@ -7,23 +7,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="full-board">
-      <div class="left-board">
-        <h1>HOME</h1>
-        <div id="display-1" class="display">0</div>
-        <div class="add-score-btns">
-          <div class="add-one">+1</div>
-          <div class="add-two">+2</div>
-          <div class="add-three">+3</div>
+    <div class="scoreboard-wrapper">
+      <div class="full-board">
+        <div class="left-board">
+          <h1>HOME</h1>
+          <div id="display-1" class="display">0</div>
+          <div class="add-score-btns">
+            <div class="add-one">+1</div>
+            <div class="add-two">+2</div>
+            <div class="add-three">+3</div>
+          </div>
+        </div>
+        <div class="right-board">
+          <h1>Guest</h1>
+          <div id="display-2" class="display">0</div>
+          <div class="add-score-btns">
+            <div class="add-one">+1</div>
+            <div class="add-two">+2</div>
+            <div class="add-three">+3</div>
+          </div>
         </div>
       </div>
-      <div class="right-board">
-        <h1>Guest</h1>
-        <div id="display-2" class="display">0</div>
-        <div class="add-score-btns">
-          <div class="add-one">+1</div>
-          <div class="add-two">+2</div>
-          <div class="add-three">+3</div>
+      <div class="new-game">
+        <button class="new-game-btn" onclick="setToInitial()">New Game</button>
+      </div>
+      <div id="winner-dialog" class="winner-dialog hidden">
+        <div class="winner-box">
+          <h2 id="winner-text"></h2>
         </div>
       </div>
     </div>
