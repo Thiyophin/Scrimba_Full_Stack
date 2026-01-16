@@ -38,7 +38,7 @@ The goal of this repo is to track my progress, experiment with new ideas, and bu
 ## 🌐 Live Projects
 
 You can view all projects here:  
-👉 **https://yourusername.github.io/your-repo-name/**
+👉 **https://thiyophin.github.io/Scrimba_Full_Stack/**
 
 ---
 
