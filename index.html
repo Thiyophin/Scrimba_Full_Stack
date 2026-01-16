@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Theo's Scrimba Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      :root {
+        --bg: #f9fafb;
+        --text: #111827;
+        --card: #ffffff;
+        --border: #e5e7eb;
+        --accent: #6366f1;
+      }
+
+      body.dark {
+        --bg: #0f172a;
+        --text: #e5e7eb;
+        --card: #111827;
+        --border: #1f2937;
+        --accent: #818cf8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        transition: background 0.3s, color 0.3s;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem 2rem;
+        border-bottom: 1px solid var(--border);
+      }
+
+      h1 {
+        font-size: 1.5rem;
+        margin: 0;
+      }
+
+      .toggle {
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        border-radius: 999px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        color: var(--text);
+      }
+
+      main {
+        padding: 2rem;
+        max-width: 1100px;
+        margin: auto;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.5rem;
+        text-decoration: none;
+        color: var(--text);
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+
+      .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      }
+
+      .card h2 {
+        margin: 0 0 0.5rem;
+        font-size: 1.2rem;
+      }
+
+      .card p {
+        margin: 0;
+        opacity: 0.8;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem;
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>🚀 My Scrimba Projects</h1>
+      <button class="toggle" id="themeToggle">🌙 Dark</button>
+    </header>
+
+    <main>
+      <div class="grid">
+        <!-- Add projects like this -->
+        <a class="card" href="./01_Score_Board/">
+          <h2>Score Board</h2>
+          <p>
+            Mini Game Scoreboard — Click to add points, see who wins, and watch
+            the board reset for the next round. Simple, fast, and interactive.
+          </p>
+        </a>
+
+        <!-- <a class="card" href="./02_Project_Name/">
+          <h2>Project 2</h2>
+          <p>Description here</p>
+        </a>
+
+        <a class="card" href="./03_Project_Name/">
+          <h2>Project 3</h2>
+          <p>Description here</p>
+        </a> -->
+      </div>
+    </main>
+
+    <footer>Built with ❤️ by Theo</footer>
+
+    <script>
+      const toggle = document.getElementById("themeToggle");
+      const body = document.body;
+
+      toggle.addEventListener("click", () => {
+        body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          toggle.textContent = "☀️ Light";
+        } else {
+          toggle.textContent = "🌙 Dark";
+        }
+      });
+    </script>
+  </body>
+</html>
