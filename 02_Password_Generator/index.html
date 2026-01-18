@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>Generate a<br /><span>random password</span></h1>
+      <p>Never use an insecure password again</p>
+
+      <div class="password-box">
+        <input
+          type="text"
+          id="passwordOutput"
+          placeholder="Your password"
+          readonly
+        />
+        <button id="copyBtn" class="copy-btn">Copy</button>
+      </div>
+
+      <div class="controls">
+        <div class="control">
+          <label>Password Length</label>
+          <input id="lengthRange" type="range" min="6" max="32" value="12" />
+          <span id="lengthValue" class="length-value">12</span>
+        </div>
+
+        <div class="control toggle">
+          <label>
+            <input id="includeNumbers" type="checkbox" checked />
+            Include Numbers
+          </label>
+        </div>
+
+        <div class="control toggle">
+          <label>
+            <input id="includeSpecialChars" type="checkbox" checked />
+            Include Special Characters
+          </label>
+        </div>
+      </div>
+
+      <button onclick="addPasswords()" class="generate-btn">
+        Generate Password
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
