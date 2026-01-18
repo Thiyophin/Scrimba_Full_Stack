@@ -8,10 +8,11 @@ The goal of this repo is to track my progress, experiment with new ideas, and bu
 
 ## 📂 Projects
 
-| #   | Project Name   | Description                                  | Live Demo                 |
-| --- | -------------- | -------------------------------------------- | ------------------------- |
-| 01  | Score Board    | Interactive scoreboard with winner detection | [View](./01_Score_Board/) |
-| 02  | Coming Soon... | More projects in progress                    | —                         |
+| #   | Project Name       | Description                                   | Live Demo                        |
+| --- | ------------------ | --------------------------------------------- | -------------------------------- |
+| 01  | Score Board        | Interactive scoreboard with winner detection  | [View](./01_Score_Board/)        |
+| 02  | Password Generator | Generate secure passwords with custom options | [View](./02_Password_Generator/) |
+| 03  | Coming Soon...     | More projects in progress                     | —                                |
 
 ---
 
@@ -21,7 +22,7 @@ The goal of this repo is to track my progress, experiment with new ideas, and bu
 - CSS3
 - JavaScript (Vanilla)
 - Git & GitHub
-- GitHub Pages (for hosting)
+- Vercel(for hosting)
 
 ---
 
