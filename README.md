@@ -39,7 +39,7 @@ The goal of this repo is to track my progress, experiment with new ideas, and bu
 ## 🌐 Live Projects
 
 You can view all projects here:  
-👉 **https://thiyophin.github.io/Scrimba_Full_Stack/**
+👉 **https://scrimba-full-stack.vercel.app/**
 
 ---
 
