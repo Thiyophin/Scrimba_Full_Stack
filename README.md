@@ -12,7 +12,8 @@ The goal of this repo is to track my progress, experiment with new ideas, and bu
 | --- | ------------------ | --------------------------------------------- | -------------------------------- |
 | 01  | Score Board        | Interactive scoreboard with winner detection  | [View](./01_Score_Board/)        |
 | 02  | Password Generator | Generate secure passwords with custom options | [View](./02_Password_Generator/) |
-| 03  | Coming Soon...     | More projects in progress                     | —                                |
+| 03  | Unit Converter     | Convert between different units               | [View](./03_unit_Converter/)     |
+| 04  | Coming Soon...     | More projects in progress                     | —                                |
 
 ---
 
