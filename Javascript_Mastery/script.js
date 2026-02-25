@@ -121,15 +121,15 @@ undefined is like a placeholder kept inside variables and it keeps that placehol
 // a(); // 22
 
 // 2
-function a(){
-    c();
-    function c(){
-        console.log(b)
-    }
-}
+// function a(){
+//     c();
+//     function c(){
+//         console.log(b)
+//     }
+// }
 
-var b = 22;
-a(); // 22
+// var b = 22;
+// a(); // 22
 
 /*
 Scope means where we can access variable and function in the code. Scope is directly dependent on lexical environment. 
@@ -138,6 +138,15 @@ its lexical environment, that is function a and looks for b there if its not the
 Whenever a global execution context is created it will make a lexical environment, lexical environment have its local memory and reference to lexical environment of its parent.
 */
 
+// let & cost | Temporal dead zone
+console.log(a); // 10
+console.log(b); // reference error, cannot access 'b' before initialization.
+
+var a = 10;
+let b = 100;
+
+// temporal dead zone time between a (let) variable is hoisted and this undefined value changes by declaration,
+// in the above code also let variable get hoisted (means memory is allocated but its not in global scope its in different scope)
 
 
 
