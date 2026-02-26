@@ -139,15 +139,44 @@ Whenever a global execution context is created it will make a lexical environmen
 */
 
 // let & cost | Temporal dead zone
-console.log(a); // 10
-console.log(b); // reference error, cannot access 'b' before initialization.
+// console.log(a); // 10
+// console.log(b); // reference error, cannot access 'b' before initialization.
 
-var a = 10;
-let b = 100;
+// var a = 10;
+// let b = 100;
 
 // temporal dead zone time between a (let) variable is hoisted and this undefined value changes by declaration,
 // in the above code also let variable get hoisted (means memory is allocated but its not in global scope its in different scope)
 
+// Block scoped and shadowing
+// if(true){
+//     // compound statement, this is block for grouping statements.
+//     var x = 10;
+//     console.log(x);
+// }
+
+// var x = 100;
+// {
+//     var x = 10; // global scope
+//     let y = 20; // block scope
+//     const z = 30; // block scope
+//     console.log(x); // 10 ( because of shadowing, they both points to global scope)
+//     console.log(y); // 20
+//     console.log(z); // 30
+// }
+// console.log(x); // 10 ( because of shadowing, they both points to global scope)
+// console.log(y); // error, y is undefined , since it is block scoped.
+// console.log(z); // error, z is undefined, since it is block scope.
 
 
+// example of illegal shadowing
+// let x = 10
+// {
+//     var x = 100; // error value already declared.
+// }
 
+//but this is possible
+// var x = 10;
+// {
+//     let x = 100;
+// }
