@@ -180,3 +180,14 @@ Whenever a global execution context is created it will make a lexical environmen
 // {
 //     let x = 100;
 // }
+
+// closures n  
+// function x(){
+//     var a = 22;
+//     function y(){
+//         console.log(x);
+//     }
+//     y();
+// }
+
+// x(); //output - 22 , closures is the combination of a function bundles together  with its lexical scope. 
