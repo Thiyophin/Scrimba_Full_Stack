@@ -191,3 +191,15 @@ Whenever a global execution context is created it will make a lexical environmen
 // }
 
 // x(); //output - 22 , closures is the combination of a function bundles together  with its lexical scope. 
+
+
+// function x(){
+//     var i = 1;
+//     setTimeout(function (){
+//         console.log(i);
+//     }, 3000) // works after 3 seconds
+//     console.log("Hello Theo");
+// }
+
+// output - Hello Theo 
+// 1
