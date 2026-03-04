@@ -203,3 +203,38 @@ Whenever a global execution context is created it will make a lexical environmen
 
 // output - Hello Theo 
 // 1
+
+// closure counter
+// function counter(){
+//     var count = 0;
+//     return function incrementCounter(){
+//         count++;
+//         console.log(count);
+//     }
+// }
+
+// var counter1 = counter();
+// counter1(); // output - 1, this one kind of data hiding.
+
+// var counter2 = counter();
+// counter2(); counter2(); // output -  1, 2, different scope. 
+
+// closure counter using constructor
+// function Counter(){
+//     var count = 0;
+//     this.incrementCounter = function(){
+//         count++;
+//         console.log(count);
+//     }
+//     this.decrementCounter = function(){
+//         count--;
+//         console.log(count);
+//     }
+// }
+
+// var counter1 = new Counter()
+// counter1.incrementCounter();
+// counter1.incrementCounter();
+// counter1.decrementCounter();
+// output - 1,2,1
+
