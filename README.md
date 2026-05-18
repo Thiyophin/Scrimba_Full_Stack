@@ -8,12 +8,13 @@ The goal of this repo is to track my progress, experiment with new ideas, and bu
 
 ## 📂 Projects
 
-| #   | Project Name            | Description                                          | Live Demo                             |
-| --- | ----------------------- | ---------------------------------------------------- | ------------------------------------- |
-| 01  | Score Board             | Interactive scoreboard with winner detection         | [View](./01_Score_Board/)             |
-| 02  | Password Generator      | Generate secure passwords with custom options        | [View](./02_Password_Generator/)      |
-| 03  | Unit Converter          | Convert between different units                      | [View](./03_unit_Converter/)          |
-| 04  | Restaurant Ordering App | Dynamic food ordering UI with cart and checkout flow | [View](./04_Restaurant_Ordering_app/) |
+| #   | Project Name            | Description                                             | Live Demo                             |
+| --- | ----------------------- | ------------------------------------------------------- | ------------------------------------- |
+| 01  | Score Board             | Interactive basketball scoreboard with winner detection | [View](./01_Score_Board/)             |
+| 02  | Password Generator      | Secure password generator with customizable options     | [View](./02_Password_Generator/)      |
+| 03  | Unit Converter          | Convert between metric and imperial units               | [View](./03_unit_converter/)          |
+| 04  | Restaurant Ordering App | Dynamic food ordering interface with cart functionality | [View](./04_Restaurant_Ordering_app/) |
+| 05  | Color Scheme Generator  | Generate beautiful color palettes using The Color API   | [View](./05_Color_Scheme_Generator/)  |
 
 ---
 
