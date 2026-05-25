@@ -8,13 +8,14 @@ The goal of this repo is to track my progress, experiment with new ideas, and bu
 
 ## 📂 Projects
 
-| #   | Project Name            | Description                                             | Live Demo                             |
-| --- | ----------------------- | ------------------------------------------------------- | ------------------------------------- |
-| 01  | Score Board             | Interactive basketball scoreboard with winner detection | [View](./01_Score_Board/)             |
-| 02  | Password Generator      | Secure password generator with customizable options     | [View](./02_Password_Generator/)      |
-| 03  | Unit Converter          | Convert between metric and imperial units               | [View](./03_unit_converter/)          |
-| 04  | Restaurant Ordering App | Dynamic food ordering interface with cart functionality | [View](./04_Restaurant_Ordering_app/) |
-| 05  | Color Scheme Generator  | Generate beautiful color palettes using The Color API   | [View](./05_Color_Scheme_Generator/)  |
+| #   | Project Name            | Description                                                | Live Demo                             |
+| --- | ----------------------- | ---------------------------------------------------------- | ------------------------------------- |
+| 01  | Score Board             | Interactive basketball scoreboard with winner detection    | [View](./01_Score_Board/)             |
+| 02  | Password Generator      | Secure password generator with customizable options        | [View](./02_Password_Generator/)      |
+| 03  | Unit Converter          | Convert between metric and imperial units                  | [View](./03_unit_converter/)          |
+| 04  | Restaurant Ordering App | Dynamic food ordering interface with cart functionality    | [View](./04_Restaurant_Ordering_app/) |
+| 05  | Color Scheme Generator  | Generate beautiful color palettes using The Color API      | [View](./05_Color_Scheme_Generator/)  |
+| 06  | Movie Watchlist         | Movie search app with OMDb API and local storage watchlist | [View](./06_Movie_watchlist/)         |
 
 ---
 
